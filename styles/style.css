@@ -20,8 +20,6 @@
   grid-template-rows: 1fr min-content 1fr;
 }
 
-/*Кнопки навигации*/
-
 .header-menu-list {
   display: flex;
   justify-content: center;
@@ -35,8 +33,6 @@
   border: none;
   background: transparent;
 }
-
-/*Действия на кнопки*/
 
 .header-menu-button_active {
   pointer-events: none;
@@ -55,8 +51,6 @@
   border: 1px solid rgba(255, 0, 112, 0.40);
   cursor: pointer;
 }
-
-/*РЕС*/
 
 .rec {
   position: absolute;
@@ -84,8 +78,6 @@
   filter: drop-shadow(0px 0px 4px var(--accent-color));
 }
 
-/* Стили углов*/
-
 .frame::before {
   position: absolute;
   top: 0;
@@ -109,8 +101,6 @@
   block-size: 25px;
   margin: 20px;
 }
-
-/*Заголовок шапки*/
 
 .header-title {
   margin-left: -20px;
@@ -136,23 +126,17 @@
   align-self: center;
 }
 
-/*Дизайн заголовков всех секций*/
-
 .question-block-title {
   color: var(--btn-color);
   font-weight: 700;
-  line-height: 23.4px; /* 130% */
+  line-height: 23.4px;
   font-size: var(--font-size);
 }
-
-/*Дизайн текста всех секций*/
 
 .question-block-answer-text {
   font-size: var(--font-size);
   color: var(--text-color);
 }
-
-/*Ссылки*/
 
 .question-block-answer-link {
   text-decoration: none;
@@ -171,8 +155,6 @@
   border: 1px solid var(--text-color);
 }
 
-/*Первая секция с вопросами*/
-
 .question-block-one {
   display: grid;
   grid-template-columns: 34% 66%;
@@ -189,8 +171,6 @@
 .question-block-answer p:first-of-type {
   padding-block-end: 10px;
 }
-
-/*Вторая секция с вопросами*/
 
 .question-block-two {
   padding-block-start: 80px;
@@ -212,8 +192,6 @@
   margin-block-end: 10px;
 }
 
-/*Третья секция с вопросами*/
-
 .question-block-fhree {
   display: grid;
   grid-template-columns: 34% 66%;
@@ -233,8 +211,6 @@
 .question-block-answer-text-fhree {
   padding-block-start: 10px;
 }
-
-/*Секция с картинками*/
 
 .question-block-image {
   padding-block-end: 60px;
@@ -280,7 +256,7 @@
   grid-column: 2 / 4;
 }
 
-/*Подвал*/
+/* ПОДВАЛ */
 
 .footer {
   min-block-size: 100vh;
@@ -300,7 +276,6 @@
   
 }
 
-/*Медиа запрос под 768px*/
 
 @media (max-width:768px) {
   .header-menu {
@@ -355,7 +330,6 @@
   }
 }
 
-/*Медиа запрос под 375px*/
 
 @media (max-width:560px) {
  .header {
