@@ -7,10 +7,10 @@
   --backgroung-image: url(../images/cover-image-dark.png);
 }
 
-.theme_dark .decorative__element {
+.theme_dark .rec {
   display: flex;
 }
 
-.theme_dark .header__theme-menu-button:hover {
+.theme_dark .header-menu-button:hover {
   border: 1px solid rgba(255, 0, 112, 0.40);
 }

@@ -7,11 +7,11 @@
   --backgroung-image: url(../images/cover-image-light.png);
 }
 
-.theme_light .decorative__element {
+.theme_light .rec {
   display: none;
 }
 
-.theme_light .header__theme-menu-button:hover {
+.theme_light .header-menu-button:hover {
   border: 1px solid rgba(50, 49, 45, 0.40);
 }
 
@@ -24,21 +24,21 @@
     --btn-color:#353430;
     --backgroung-image: url(../images/cover-image-light.png);
   }
-  .decorative__element {
+  .rec {
     display: none;
   }
   
-  .header__theme-menu-button:hover {
+  .header-menu-button:hover {
     border: 1px solid rgba(50, 49, 45, 0.40);
   }
 }  
 
 
 @media (min-width: 1024px) {
-  .header__title {
+  .header-title {
     text-shadow: 4px 4px 0 #FF0070;
   }
-  .footer__title {
+  .footer-title {
     text-shadow: 4px 4px 0 #FF0070;
   }
 }
